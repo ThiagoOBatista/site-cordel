@@ -5,3 +5,60 @@
     padding: 0;
     box-sizing: none;
 }
+
+html, body {
+    min-height: 100vh;
+    background-color: #359ea19a;
+}
+
+header {
+    background-color: #202020;
+    color: #ffffff;
+    text-align: center;
+}
+
+header h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 5vh;
+    line-height: 2em;
+}
+
+.normal {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.imagem {
+    background-color: #659191;
+    color: #ffffff;
+}
+
+.imagem p {
+    width: 400px;
+    background-color: #0000008a;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
